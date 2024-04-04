@@ -10,10 +10,10 @@ function App() {
     <main>
       <div className="bg-light-pink flex h-auto min-h-screen items-center justify-center p-6">
         <picture className="absolute top-0">
-          <source srcSet={backgroundMobile} media="(max-width: 400px)" className="w-full" />
+          <source srcSet={backgroundMobile} media="(max-width: px)" className="w-full" />
           <img
             src={backgroundDsektop}
-            alt="product-image"
+            alt="background"
           />
         </picture>
         <div className="z-10 flex w-full flex-col rounded-md bg-white p-6 sm:max-w-[420px]">
